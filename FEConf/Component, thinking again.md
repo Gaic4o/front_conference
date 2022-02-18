@@ -68,7 +68,7 @@ React 컴포넌트 <Article /> 렌더링 부분 수정.
 가장 쉽게 함께 둘 수 있는 게 어떤 것이 있을까요?
 먼저 `전역 상태는 여러 컴포넌트가 함께 사용하는 것이니`, 아무래도 함께 두기 힘듬.
 
-스타일과 로직은 함께 두기가 쉽게 가능 할 것 같습니다.
+`스타일`과 `로직`은 함께 두기가 쉽게 가능 할 것 같습니다.
 컴포넌트 안에 내재하도록 바꿔보기 (스타일 CSS-in-JS) (로직 Custom Hooks)
 
 
@@ -89,8 +89,8 @@ const Container = styled.div`
 ```
 
 로직과 스타일을 근처에 두기.
-로직, 스타일을 변경 할 떄 -> 여러 파일을 오가지 않아도 함꼐 수정할 수 있게 됩니다.
---> 코드가 길어진다면? 다른 폴더가 아닌 같은 폴더 내에 다른 파일로 분리하는 것을 추천.
+로직, 스타일을 변경 할 떄 -> `여러 파일을 오가지 않아도 함꼐 수정할 수 있게 됩니다.`
+--> 코드가 길어진다면? 다른 폴더가 아닌 `같은 폴더 내에 다른 파일로 분리하는 것을 추천.`
 
 이번엔 리모트 데이터 스키마를 같이 둘려면?
 
@@ -116,7 +116,7 @@ const Something: React.ExoticComponent<Props> = (props) => {
 }
 ```
 
--> 이 컴포넌트를 개선 해 본다면?
+-> `이 컴포넌트를 개선 해 본다면?`
 이렇게 하면 확실히 다른 컴포넌트와의 의존성이 많이 약해졌다는 것을 확인.
 
 ``` javascript
@@ -136,7 +136,7 @@ const Something: React.ExoticComponent<Props> = (props) => {
 
 
 
-두 번째 리팩토링 원칙 -> 데이터를 ID 기반으로 정리하는 것.
+두 번째 리팩토링 원칙 -> `데이터를 ID 기반`으로 정리하는 것.
 
 ``` javascript
 {
@@ -160,7 +160,7 @@ const Something: React.ExoticComponent<Props> = (props) => {
 
 
 API 응답을 다음과 같이 정리한다면?
-모델명과 ID 를 가지고 특정 데이터를 뽑아 낼 수 있습니다. -> 데이터 정규화, Normalization 
+`모델명`과 `ID` 를 가지고 `특정 데이터`를 뽑아 낼 수 있습니다. -> 데이터 정규화, Normalization 
 
 ``` javascript
 {
@@ -185,13 +185,13 @@ API 응답을 다음과 같이 정리한다면?
 }
 ```
 
-이렇게 데이터 정규화를 도와주는 라이브러리가 있습니다.
+이렇게 `데이터 정규화를 도와주는 라이브러리`가 있습니다.
 
 ``` md
 $ yarn add normalizr 
 ```
 
-이런 정규화된 데이터를 가지고 특정 객체를 데이터 저장소로부터 쉽게 가져 올 수 있습니다.
+이런 정규화된 데이터를 가지고 특정 객체를 `데이터 저장소로`부터 쉽게 가져 올 수 있습니다.
 
 상위 컴포넌트 -> 초콜릿: 3 -> 컴포넌트 -> 3번 초콜릿을 주세요 -> 데이터 저장소.
 
@@ -199,7 +199,7 @@ $ yarn add normalizr
 전역 아이디는 특정 객체를 식별하기 위해, 모델명을 따로 넘길 필요 x 아이디값으로 특정 데이터를 유일하게 식별할 수 있는 체계.
 
 보통 모델명과 ID 값을 string concat 해서 생성 하고, 경우에 따라서 base64 인코드, 디코드도 할 수 있습니다.
-useArticle Hook -> Article 필요하다 역시 컴포넌트 바깥에서 주입받고 있는 것을 확인 할 수 있습니다. (import) 
+useArticle Hook -> `Article 필요하다 역시 컴포넌트 바깥에서 주입받고 있는 것을 확인 할 수 있습니다. (import) `
 
 전역 ID를 통해 데이터를 가져오는 useNode hooks 로 바꾸면?
 사용할 모델 정보마저, 컴포넌트 내부에 함께 둘 수 있게 됩니다.
@@ -293,14 +293,11 @@ const onRefreshButtonClick = () => {
 ```
 
 
-1. https://www.inflearn.com/course/%EB%A0%88%EC%B8%A0%EA%B8%B0%EB%A6%BF-%EC%9E%90%EB%B0%94%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8
-2. https://www.inflearn.com/course/%EC%8B%A4%EC%A0%84-%EC%9E%90%EB%B0%94%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8
-3. https://www.inflearn.com/course/web-game-react
-4. https://www.inflearn.com/course/%EB%85%B8%EB%93%9C%EB%B2%84%EB%93%9C-%EB%A6%AC%EC%95%A1%ED%8A%B8-%EB%A6%AC%EB%89%B4%EC%96%BC
 
 
-이름 짓기 Naming 
-이 챕터에서는 Props Nameing 이야기.
+## 이름 짓기 Naming 
+
+이 챕터에서는 `Props Nameing` 이야기.
 
 
 간단 유저 Profile 보여주는 컴포넌트.
@@ -416,7 +413,7 @@ const image = useNode({
 
 
 
-1. 재사용 하기 
+## 재사용 하기 
 
 컴포넌트를 재사용하는 이유
 -> 개발 할 떄 편리하기 위한 것보다 `변경 할 떄 편리하기 위해.`
@@ -479,7 +476,7 @@ interface Props {
 ```
 
 
-이런 기능들은 하나 새로 만들어야 할까 ㄴㄴ 
+이런 `기능들은 하나 새로 만들어야 할까 ㄴㄴ `
 switch 문을 통해 만들어 주면 됩니다.
 
 ``` javascript
