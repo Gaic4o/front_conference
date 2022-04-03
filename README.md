@@ -4,7 +4,8 @@
 
 
 [그런 REST API로 괜찮은가](https://www.youtube.com/watch?v=RP_f5dMoHFc)<br/>
-[비동기 작업](https://toss.im/slash-21/sessions/3-1)<br/>
+[프론트엔드 웹 서비스에서 우아하게 비동기 처리하기](https://toss.im/slash-21/sessions/3-1)<br/>
+[Mico-frontend React, 점진적으로 도입하기](https://toss.im/slash-21/sessions/3-1)<br/>
 [Clean Code](https://toss.im/slash-21/sessions/3-3)<br/>
 [Javascript Bundle Diet](https://toss.im/slash-21/sessions/3-2)<br/>
 [모두를 위한 모바일웹 : 접근성 준수 스크린리터 UX 개선하기](https://www.youtube.com/watch?v=tKj3xsXy9KM)<br/>
