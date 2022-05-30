@@ -12,3 +12,4 @@
 [Component, thinking again](https://www.youtube.com/watch?v=HYgKBvLr49c&t=1255s)<br/>
 [ES6+ 비동기 프로그래밍과 실전 에러 핸들링](https://www.youtube.com/watch?v=o9JnT4sneAQ)<br/>
 [Relay, 그리고 Declarative에 대해 다시 생각하기](https://www.youtube.com/watch?v=YP7d9ae_VzI)<br/>
+[디자인 시스템, 그 다음은?](https://www.youtube.com/watch?v=LmLchZ4tCXc&t=2670s)
