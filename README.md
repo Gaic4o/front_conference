@@ -11,4 +11,5 @@
 [Relay, 그리고 Declarative에 대해 다시 생각하기](https://www.youtube.com/watch?v=YP7d9ae_VzI)<br/>
 [디자인 시스템, 그 다음은?](https://www.youtube.com/watch?v=LmLchZ4tCXc&t=2670s)<br/>
 [지속 가능한 성장과 컴포넌트](https://www.youtube.com/watch?v=fR8tsJ2r7Eg&t=549s)
-[토스ㅣSLASH 22 - 잃어버린 유저의 시간을 찾아서 : 100년을 아껴준 SSR 이야기](https://www.youtube.com/watch?v=IKyA8BKxpXc&t=437s)
+[토스ㅣSLASH 22 - 잃어버린 유저의 시간을 찾아서 : 100년을 아껴준 SSR 이야기](https://www.youtube.com/watch?v=IKyA8BKxpXc&t=437s)<br/>
+[쉽게 써봅시다. RxJS!](https://www.youtube.com/watch?v=2f09-veX4HA)
