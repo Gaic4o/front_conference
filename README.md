@@ -13,3 +13,8 @@
 [지속 가능한 성장과 컴포넌트](https://www.youtube.com/watch?v=fR8tsJ2r7Eg&t=549s)
 [토스ㅣSLASH 22 - 잃어버린 유저의 시간을 찾아서 : 100년을 아껴준 SSR 이야기](https://www.youtube.com/watch?v=IKyA8BKxpXc&t=437s)<br/>
 [쉽게 써봅시다. RxJS!](https://www.youtube.com/watch?v=2f09-veX4HA)
+[Securing the Front Lines: Protecting Front-End Applications from Overlooked Vulnerabilities](https://www.youtube.com/watch?v=IutA2l7ptcI)
+[Effective Component 지속 가능한 성장과 컴포넌트](https://github.com/Gaic4o/front_conference/blob/master/toss/Effective%20Component.md)
+[Component, thinking again](https://www.youtube.com/watch?v=HYgKBvLr49c&t=1255s)
+[SSR 메모리 누수 디버깅 가이드](https://www.youtube.com/watch?v=P3C7fzMqIYg)
+[Webpack 5 Module Federation으로 Micro-Frontends 운영하기](https://www.youtube.com/watch?v=0Eq6evGKJ68)
