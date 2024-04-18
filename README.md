@@ -19,3 +19,4 @@
 [SSR 메모리 누수 디버깅 가이드](https://www.youtube.com/watch?v=P3C7fzMqIYg)
 [Webpack 5 Module Federation으로 Micro-Frontends 운영하기](https://www.youtube.com/watch?v=0Eq6evGKJ68)
 [보안적 관점에서의 Front-End 자격증명 정보관리와 브라우저 데이터 저장소 선택의 장/단점](https://www.youtube.com/watch?v=XAcJ47CidhY&t=1062s)
+[디자인 시스템이 주니어에게 가져다 준 변화](https://www.youtube.com/watch?v=s3-8TFiYR6I)
