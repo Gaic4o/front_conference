@@ -22,3 +22,4 @@
 [디자인 시스템이 주니어에게 가져다 준 변화](https://www.youtube.com/watch?v=s3-8TFiYR6I)<br/>
 [React.js의 렌더링 방식 살펴보기 - 이정환](https://www.youtube.com/watch?v=N7qlk_GQRJU)<br/>
 [🍧 엘라의 Scope & Closure](https://www.youtube.com/watch?v=PVYjfrgZhtU)<br/>
+[우리는 오늘도 성장합니다 - 인프랩 프론트엔드 업무 프로세스 변천사](https://www.youtube.com/watch?v=e5NPC1y7ha4)<br/>
