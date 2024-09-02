@@ -1,6 +1,6 @@
 # 아직도 React 폴더 구조로 고민하고 계신가요? FSD 한 번 써보세요
 
-영상 링크: [아직도 React 폴더 구조로 고민하고 계신가요? FSD 한 번 써보세요](https://www.youtube.com/watch?v=64Fx5Y1gEOA)
+영상 링크: [아직도 React 폴더 구조로 고민하고 계신가요? FSD 한 번 써보세요](https://www.youtube.com/watch?v=64Fx5Y1gEOA)<br/>
 Github FSD 프로젝트 참고할 만한 곳 [FSD web16-B1G1](https://github.com/boostcampwm2023/web16-B1G1)
 
 ## FSD 핵심 개념
