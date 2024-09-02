@@ -23,4 +23,5 @@
 [React.js의 렌더링 방식 살펴보기 - 이정환](https://www.youtube.com/watch?v=N7qlk_GQRJU)<br/>
 [🍧 엘라의 Scope & Closure](https://www.youtube.com/watch?v=PVYjfrgZhtU)<br/>
 [우리는 오늘도 성장합니다 - 인프랩 프론트엔드 업무 프로세스 변천사](https://www.youtube.com/watch?v=e5NPC1y7ha4)<br/>
-[도커 한방에 정리 🐳](https://www.youtube.com/watch?v=LXJhA3VWXFA)
+[도커 한방에 정리 🐳](https://www.youtube.com/watch?v=LXJhA3VWXFA)<br/>
+[FEConf 2024 [B1] 바퀴 대신 로켓 만들기](https://www.youtube.com/watch?v=LXJhA3VWXFA)
